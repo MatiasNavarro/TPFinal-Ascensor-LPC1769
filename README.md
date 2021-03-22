@@ -31,4 +31,6 @@ También cuenta con LEDs que indican si el ascensor está subiendo, bajando o si
   	- VERDE: Ascensor bajando
  * P2.13 Salida ALARMA
  
+![Conexiones](/img/Ascensor.PNG)
 
+![Topologico](/img/Ascensor-Topologico.PNG)
