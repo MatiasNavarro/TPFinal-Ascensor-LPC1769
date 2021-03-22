@@ -9,28 +9,26 @@ El comportamiento del mismo es similar al de un ascensor real que cuenta con 3 p
 También cuenta con LEDs que indican si el ascensor está subiendo, bajando o si ocurrió una parada de emergencia y un display 7 segmentos para indicar en que piso se encuentra actualmente. Se simula una cabina de control (mediante un PC) donde se transmiten datos por puerto serie (UART) del estado del ascensor constantemente.
 
 ### Configuración de puertos
-/*
- *	Puerto 0:
- *		P0.0 Tx
- *		P0.1 Rx
- *		
- *		P0.4 - Dirección motor
- *		P0.6 - P0.9 Entrada del teclado
- *		P0.23 - P0.25 Salida del teclado
- *		-------------------------------------------
- *		Teclado 0 - 1 - 2 Pisos
- *		Teclado *(Alarma) #(Parada de emergencia)
- *		-------------------------------------------
- *		P2.0 PWM1
- *		P0.23 ADC0.0
- *
- *	Puerto 2:
- *		P2.1 - P2.7 Salida de display 7 segmentos (sin punto)
- *		P2.8 Salida (Display encendido o apagado)
- *		P2.10 - P0.12 Salidas led's
- *			- ROJO: Parada de Emergencia
- *			- AZUL: Ascensor subiendo
- *			- VERDE: Ascensor bajando
- *		P2.13 Salida ALARMA
- */
+#### Puerto 0:
+ * P0.0 Tx
+ * P0.1 Rx	
+ * P0.4 - Dirección motor
+ * P0.6 - P0.9 Entrada del teclado
+ * P0.23 - P0.25 Salida del teclado
+ -------------------------------------------
+ * Teclado 0 - 1 - 2 Pisos
+ * Teclado *(Alarma) #(Parada de emergencia)
+ -------------------------------------------
+ * P2.0 PWM1
+ * P0.23 ADC0.0
+ 
+#### Puerto 2:
+ * P2.1 - P2.7 Salida de display 7 segmentos (sin punto)
+ * P2.8 Salida (Display encendido o apagado)
+ * P2.10 - P0.12 Salidas led's
+  	- ROJO: Parada de Emergencia
+  	- AZUL: Ascensor subiendo
+  	- VERDE: Ascensor bajando
+ * P2.13 Salida ALARMA
+ 
 
